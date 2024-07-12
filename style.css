@@ -1,0 +1,154 @@
+#home {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   background-size: cover;
+   object-fit: cover;
+   background-position: center;
+   }
+
+#container-fluid {
+   padding: 20px 0px;
+   color: black;
+   font-family: "Nunito", sans-serif;
+   }
+
+.container::-webkit-scrollbar {
+   display: none;
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-family: "Nunito", sans-serif;
+   transition: 0.9s ease;
+}
+
+.row>div:hover {
+   backdrop-filter: blur(30px);
+   border: 1px solid rgba(238, 225, 225, 0);
+   background: linear-gradient(13deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+
+
+.row>div {
+   height: 200px;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   margin: 20px 5px;
+   margin: 30px;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+   display: flex;
+   border: none;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Nunito", sans-serif;
+   justify-content: center;
+}
+
+
+.top {
+   background-color: rgba(211, 211, 211, 0.515);
+   position: fixed;
+   right: 150px;
+   top: 35px;
+   color: white;
+}
+
+.up {
+   background-color: rgba(211, 211, 211, 0.515);
+   position: fixed;
+   right: 150px;
+   bottom: 30px;
+   color: white;
+}
+
+.up:hover {
+   color: white;
+   border: 1px solid white;
+}
+
+.top:hover {
+   color: white;
+   border: 1px solid white;
+}
+
+.d0 span {
+   margin-top: 70px;
+}
+
+.d0 {
+   background-color: transparent;
+   transition: 0.6s ease;
+}
+
+.d1 {
+   transition: 0.6s ease;
+   display: none;
+}
+
+.col-xxl-2:hover .d1 {
+   transition: 0.6s ease;
+   display: block;
+   position: absolute;
+   /* background-color: black; */
+}
+
+.col-xxl-2:hover .d0 {
+   transition: 0.6s ease;
+   opacity: 0;
+}
+
+.col-xxl-2 {
+   padding: 20px 10px !important;
+}
+
+.d0>img {
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 5px;
+   background-size: cover !important;
+   object-fit: cover !important;
+   
+}
+
+.name {
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   font-weight: 800;
+   padding: 6px 15px;
+   border-radius: 20px;
+}
+
+.d1>a>i {
+   background-color: rgba(73, 73, 73, 0.515);
+   color: white;
+   padding: 10px;
+   border-radius: 20px;
+   border: 1px solid rgba(121, 121, 121, 0.515);
+}
+
+.d1>a>i:hover {
+   border: 1px solid rgba(73, 73, 73, 0.515);
+   color: rgba(73, 73, 73, 0.515);
+}
+
+#hover-image {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+   max-width: 80%;
+   max-height: 80%;
+   border: 2px solid black;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.d1>a {
+   border: none !important;
+   color: #292e5d00 !important;
+   border: none;
+   padding: 5px;
+   margin: 3px;
+}
